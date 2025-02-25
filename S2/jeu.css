@@ -1,0 +1,31 @@
+#eau {
+	position: relative;
+	width: 800px;
+	height: 450px;
+	background-image: url(eau.svg);
+	overflow: hidden;
+}
+
+#pingouin {
+	position: absolute;
+	z-index: 10;	
+	transition: top 1s;
+}
+
+.poisson {
+	position: absolute;
+	left: 840px;
+	transition: left 2s;
+	transition-timing-function: linear;
+}
+
+.phoque {
+	position: absolute;
+	left: 780px;
+	transition: left 2s;
+	transition-timing-function: linear;
+}
+
+#affichage_score {
+	display: flex;
+}
